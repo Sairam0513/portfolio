@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects - Sai Ram Portfolio</title>
+  <link rel="stylesheet" href="my projects.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Fixed Left Section -->
+    <div class="left-section">
+      <div class="profile-pic">
+        <img src="profile pic.jpg" alt="Profile Picture" />
+      </div>
+      <div class="name-title">
+        <h2>Sai Rama Raju Sivangi</h2>
+        <p>B.Tech A.I & D.S.</p>
+        <p>D.N.R College of Engineering & Technology</p>
+      </div>
+      <div class="typing-text">
+        <span id="typed"></span>
+      </div>
+      <div class="para"> 
+        <ul> 
+          <li>🎓 3rd Year B.Tech Student in Artificial Intelligence & Data Science</li>
+          <li>🏫 D.N.R College of Engineering & Technology</li>
+          <li>🤖 Passionate about AI, Machine Learning & Computer Vision</li>
+          <li>💡 Creative Project Builder with Real-Time Applications</li>
+          <li>🛠️ Built projects like ISHA, Astra, Agni, and Sentiment Analyzer</li>
+          <li>🧠 Always exploring new tech tools and innovations</li>
+          <li>🏆 Winner of multiple inter-college project expos</li>
+          <li>📈 Actively upskilling via platforms like Infosys Springboard</li>
+          <li>🌐 Interested in building intelligent systems for real-world impact</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scrollable Right Section -->
+    <div class="projects-section">
+      <h2 class="section-title">My Projects</h2>
+
+      <!-- Inserted banner image -->
+      <div class="projects-banner">
+        <img src="projects.png" alt="Project Plan Illustration" class="banner-image" />
+      </div>
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-header" onclick="toggleDetails(this)">
+          <h3>Sentiment Analysis 😊</h3>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="project-details">
+          <p>
+            A real-time web app that analyzes your mood and displays an animated emoji based on your emotions! 💬🎭 Simply type in a message, and the app reflects your sentiment (happy, sad, angry, or neutral) using a floating emoji over a dynamic 3D background.<br><br>
+            Built with JavaScript, Three.js, and basic NLP techniques, this project combines interactivity, AI, and visual creativity.
+            <br><br><strong>Key Features:</strong>
+            <ul>
+              <li>Emotion-aware UI/UX</li>
+              <li>3D animated emoji feedback</li>
+              <li>Real-time sentiment detection</li>
+              <li>Applications in chatbots, mental health tools, and feedback systems</li>
+            </ul>
+          </p>
+          <div class="images-row">
+            <img src="materials/ss1.png" alt="Sentiment Image 1">
+            <img src="materials/ss2.png" alt="Sentiment Image 2">
+            <img src="materials/ss3.png" alt="Sentiment Image 3">
+          </div>
+          <div class="video">
+            <video controls class="video">
+              <source src="sentiment analysis.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-header" onclick="toggleDetails(this)">
+          <h3>Project Agni 🔥</h3>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="project-details">
+          <p>
+            AGNI is a bomb diffusing robot equipped with:<br><br>
+            ✅ A live camera for real-time monitoring<br>
+            ✅ Smartphone-based remote control<br>
+            ✅ A robotic arm to handle and diffuse explosives<br><br>
+            This project not only taught us teamwork and technical skills, but it also brought us recognition – 2nd Prize at the Project Expo – SPECTRA 2K24, held at Vasavi Engineering College, Tadepalligudem.
+          </p>
+          <div class="videos">
+            <video controls>
+              <source src="agni.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+       <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-header" onclick="toggleDetails(this)">
+          <h3>Project ISHA 🤖</h3>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="project-details">
+          <p>
+           🤖 ISHA – Intelligent Smart Human Assistant
+ISHA is an AI-powered chatbot designed to simulate human-like conversations and assist users with a variety of tasks in real time. It supports natural language interaction, offering smart responses, task execution, and information retrieval.
+
+🔧 Built using Node.js, HTML/CSS, JavaScript, and Google APIs, ISHA is highly responsive and designed for smooth user experience.
+
+<li>🧠 Key Features:</li>
+
+<li>Natural conversation handling with AI logic</li>
+
+<li>Google integration for web search and data access
+</li>
+<li>Scalable design for future upgrades like voice input and multi-language support</li>
+
+🏅 ISHA secured 2nd Prize at the INNOEX Project Expo, Vasavi Engineering College, for its innovation and practical impact in enhancing user productivity.
+          </p>
+          <div class="videos">
+            <video controls>
+              <source src="chatbot.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+       <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-header" onclick="toggleDetails(this)">
+          <h3>Astra ✋</h3>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="project-details">
+          <p>
+           🖐️ ASTRA – Hands-Free Operating System
+ASTRA is an innovative gesture-based system that allows users to control their computer without touching any hardware. Using hand gestures and eye blinks, users can navigate, click, scroll, adjust volume/brightness, and even open apps — completely hands-free.
+
+💡 Powered by Computer Vision and OpenCV, this project enhances accessibility and introduces a futuristic way to interact with digital systems.
+
+🌟 ASTRA was recognized for its real-time responsiveness and social impact potential, making it a standout at various tech expos.
+
+
+          </p>
+          <div class="videos">
+            <video controls>
+              <source src="Astra.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function toggleDetails(header) {
+      const clickedCard = header.parentElement;
+      const allCards = document.querySelectorAll(".project-card");
+      allCards.forEach(card => {
+        if (card !== clickedCard) card.classList.remove("active");
+      });
+      clickedCard.classList.toggle("active");
+    }
+
+    const phrases = [
+      "Tech Enthusiastic",
+      "Data Science Explorer",
+      "Passionate and Creative"
+    ];
+    let index = 0, charIndex = 0, isDeleting = false;
+    const typedText = document.getElementById("typed");
+
+    function typeEffect() {
+      if (index >= phrases.length) index = 0;
+      const currentPhrase = phrases[index];
+
+      if (isDeleting) {
+        typedText.textContent = currentPhrase.substring(0, --charIndex);
+        if (charIndex === 0) { isDeleting = false; index++; }
+      } else {
+        typedText.textContent = currentPhrase.substring(0, ++charIndex);
+        if (charIndex === currentPhrase.length) {
+          isDeleting = true;
+          setTimeout(typeEffect, 1000);
+          return;
+        }
+      }
+      setTimeout(typeEffect, isDeleting ? 50 : 100);
+    }
+    typeEffect();
+  </script>
+</body>
+</html>
